@@ -1,50 +1,59 @@
 body {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
     margin: 0px;
+
 }
-#header{
-    margin: 1rem;
+
+#header {
+    padding: 1rem;
+    /* margin-bottom: 0px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-  
+
 }
 
-.custom-logo img{
-    width:238px;
-     height: auto;
+.custom-logo img {
+    width: 238px;
+    height: auto;
 }
-nav{
+
+nav {
     width: 30%;
 }
-.nav-ul{
+
+.nav-ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
 }
-.nav-li a:hover{
+
+.nav-li a:hover {
     text-decoration: none;
-    color:#57b8ea;
+    color: #57b8ea;
 }
+
 @media screen and (max-width: 1200px) {
-  .spacer{
-    display: none;
-  }
-     .nav-li{
+    .spacer {
+        display: none;
+    }
+
+    .nav-li {
         display: none;
     }
 }
+
 @media screen and (min-width: 1200px) {
-   .menu-button{
-       display: none;
-   }
+    .menu-button {
+        display: none;
+    }
 
 }
 
-    
+
 
 a {
     color: #000;
@@ -58,6 +67,13 @@ a {
     color: #000000;
 }
 
+.center-div {
+   
+     height: 100vh; 
+        width: 100%;
+ 
+}
+
 .center-div-img-background {
     background-color: transparent;
     background-image: url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/hero-free-img.jpg);
@@ -66,13 +82,13 @@ a {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .center-div-gradient {
     background-image: linear-gradient(to right, #075aaedd, rgba(0, 0, 0, 0));
 
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -86,15 +102,17 @@ a {
     /* height: 100%; */
     left: 15%;
     top: 50%;
-    transform: translateY(-70%);
+    transform: translateY(-60%);
 }
 
 .center-div-bold-header {
     /* font-weight: bold; */
+    position: relative;
     font-family: 'montserrat', sans-serif;
     font-size: 4rem;
     color: #fff;
     font-weight: 400;
+    margin: 0px;
 
 }
 
