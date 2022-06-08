@@ -44,6 +44,7 @@ nav {
     .nav-li {
         display: none;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -68,13 +69,14 @@ a {
 }
 
 .center-div {
-   
-     height: 100vh; 
-        width: 100%;
-        overflow: hidden;
- 
+
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
 }
-.wrapper{
+
+.wrapper {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -93,7 +95,8 @@ a {
     /* position: absolute; */
     transition: transform .5s;
 }
-.center-div:hover .center-div-img-background{ 
+
+.center-div:hover .center-div-img-background {
     transform: scale(1.12);
 }
 
@@ -150,12 +153,19 @@ a {
     font-weight: lighter;
 }
 
+.center-div-button:hover .center-div-button-start span {
+    color: #075aae;
+    font-weight: 400;
+}
+
+
 .center-div-button-read {
 
     padding: .8em 2em;
     font-size: 1rem;
     border: none;
     background-color: #075aae;
+    font-weight: lighter;
 }
 
 .center-div-button-read:hover {
