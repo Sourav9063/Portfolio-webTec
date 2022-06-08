@@ -1,0 +1,146 @@
+.testi-div {
+
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.testi-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+
+}
+
+.testi-div-img-background {
+    background-color: transparent;
+    background-image: url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/testimonials-free-img.jpg);
+    background-size: cover;
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+    transition: transform .5s;
+}
+
+.testi-div:hover .testi-div-img-background {
+    transform: scale(1.12);
+}
+
+.testi-div-gradient {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #075aaedd);
+
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.testi-div-outer {
+    position: relative;
+    width: 31%;
+    /* height: 100%; */
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.testi-div-bold-header {
+    /* font-weight: bold; */
+    position: relative;
+    font-family: 'montserrat', sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 400;
+    margin: 0px;
+
+}
+
+.testi-div-p {
+    font-family: 'montserrat', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.testi-hr {
+    width: 13%;
+
+    background-color: #ffffff;
+
+    border: 0px;
+    height: 1px;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* my story */
+
+.my-story {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f4f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-story-main {
+    height: 75vh;
+    width: 70%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+
+
+}
+.my-story-left{
+    width: 55%;
+    /* height: 100%; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.my-story-main h1{
+    font-size: 2.5rem;
+  
+    margin-bottom: 20px;
+}
+.my-story-main p{
+  
+    width: 100%;
+    margin-bottom: 60px;
+}
+.my-story-right{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/story-free-img.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #075aae;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    width: 40%;
+    text-align: center;
+}
