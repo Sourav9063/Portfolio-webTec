@@ -1,4 +1,4 @@
-.as-featured{
+.as-featured {
     width: 100%;
     height: 230px;
     background-color: #f4f6f6;
@@ -9,92 +9,107 @@
     flex-direction: column;
 
 }
-.as-featured img{
+
+.as-featured img {
     transition: transform .2s;
 }
-.as-featured img:hover{
+
+.as-featured img:hover {
     transform: scale(1.2);
 }
 
 
-.what-i-do{
+.what-i-do {
     display: flex;
-    padding-top:80px ;
+    padding-top: 80px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
 
 }
-.what-i-do-header{
+
+.what-i-do-header {
     font-size: 2.5rem;
     font-weight: bold;
     color: #000;
     margin-bottom: 20px;
 }
-.what-i-do-p{
-   
+
+.what-i-do-p {
+
     color: #000;
     width: 40%;
     text-align: center;
 }
 
-.what-i-do-cards,.what-i-do-cards2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 70%;
+.what-i-do-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(530px, auto);
+    width: 67%;
+    gap: 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
+
 @media screen and (max-width: 1260px) {
-    .what-i-do-cards{
-        flex-direction: column;
-    }
-    .what-i-do-cards2{
-        flex-direction: column;
+
+    .what-i-do-cards {
+        grid-template-columns: auto;
     }
 
-    
+
+
+
+
+
 }
+
 .what-i-do-card {
-    width: 30%;
-    height: 450px;
+    /* width: 30%; */
+    /* width: auto; */
+    /* height: 450px; */
     background-color: #075aae;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin: 15px;
-    padding: 50px;
+    /* margin: 15px; */
+    padding: 80px 50px;
     flex-wrap: wrap;
 }
-.what-i-do-card hr{
+
+.what-i-do-card hr {
     width: 20%;
     align-self: start;
-   
-    background-color:#067ae0;
+
+    background-color: #067ae0;
 
     border: 0px;
     height: 1px;
     margin-left: 0px;
-    
-    }
 
-.what-i-do-card h1, .footer h1{
+}
+
+.what-i-do-card h1,
+.footer h1 {
     font-size: 2.5rem;
     /* font-weight: bold; */
     color: #fff;
     margin-bottom: 20px;
     font-weight: 400;
 }
-.what-i-do-card p{
+
+.what-i-do-card p {
     color: #fff;
     width: 100%;
     margin-bottom: 60px;
 
 }
-.what-i-do-card button{
+
+.what-i-do-card button {
     padding: 1em 2em;
     font-size: 1rem;
     border: 1px solid #fff;
@@ -104,33 +119,34 @@
     font-weight: 200;
 }
 
-.what-i-do-need-advice{
-    width: 30%;
-    height: 450px;
+.what-i-do-need-advice {
     background-color: #f4f6f6;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin: 15px;
-    padding: 50px;
+
+    padding: 80px 50px;
     flex-wrap: wrap;
 
 }
-.what-i-do-need-advice h1{
+
+.what-i-do-need-advice h1 {
     font-size: 2.5rem;
-  
+
     margin-bottom: 20px;
 }
-.what-i-do-need-advice p{
-  
+
+.what-i-do-need-advice p {
+
     width: 100%;
     margin-bottom: 60px;
 
 }
 
-.what-i-do-cards2-button, .my-story-main button{
+.what-i-do-cards2-button,
+.my-story-main button {
     padding: 1em 2em;
     font-size: 1rem;
     border: 1px solid #fff;
@@ -141,36 +157,41 @@
 
     transition: background-color 0.3s ease-in-out;
 }
-.what-i-do-cards2-button:hover, .my-story-main button:hover{
+
+.what-i-do-cards2-button:hover,
+.my-story-main button:hover {
     background-color: #067ae0;
 }
 
-.what-i-do-ebooks{
-    width:75%;
-    background-color: #f6f6f6;
-    height: 450px;
-    display: flex;
-    padding: 50px;
-    margin: 15px;
+.what-i-do-ebooks {
 
+    grid-column: span 2;
+    background-color: #f6f6f6;
+
+    display: flex;
+
+    padding: 80px 50px;
     justify-content: center;
     align-items: center;
 }
-.what-i-do-ebooks h1{
+
+.what-i-do-ebooks h1 {
     font-size: 1.5rem;
-    /* font-weight: bold; */
+
     color: #000;
     margin-bottom: 20px;
 }
-.what-i-do-ebooks p{
+
+.what-i-do-ebooks p {
     color: #000;
     width: 100%;
     margin-bottom: 60px;
 
 }
-.what-i-do-ebooks img{
- position: relative;
- top: 25%;
- right: 40px;
- height: 260px;
+
+.what-i-do-ebooks img {
+    position: relative;
+    top: 25%;
+    right: 40px;
+    height: 260px;
 }
